@@ -119,7 +119,7 @@ class Client
         if (empty($variables)) $variables = (object) null;
         // Set query in the request body
         $bodyArray = ['query' => (string) $queryString, 'variables' => $variables];
-        $request = $request->withBody(Psr7\stream_for(json_encode($bodyArray)));
+        $request = $request->withBody(Psr7\Utils::streamFor(json_encode($bodyArray)));
 
         // Send api request and get response
         try {
