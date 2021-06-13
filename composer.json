@@ -1,17 +1,8 @@
 {
-    "name": "gmostafa/php-graphql-client",
-    "description": "GraphQL client and query builder.",
+    "name": "yosodog/php-graphql-client",
+    "description": "Modified GraphQL client and query builder.",
     "type": "library",
     "license": "MIT",
-    "keywords": [
-        "graphql",
-        "graph-ql",
-        "client",
-        "php",
-        "query-builder",
-        "query",
-        "builder"
-    ],
     "authors": [
         {
             "name": "Mostafa Ghoneimy",
